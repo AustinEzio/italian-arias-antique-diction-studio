@@ -1,0 +1,161 @@
+{
+  "id": "sebben-crudele",
+  "number": 15,
+  "title": {
+    "it": "Sebben, crudele",
+    "zh": "即使你如此狠心"
+  },
+  "composer": {
+    "name": "Antonio Caldara",
+    "life": "约1670–1736"
+  },
+  "source": "选自歌剧《La costanza in amor vince l'inganno》（1710，马切拉塔）；《26 Italian Songs and Arias》第15首；歌词为18世纪公有领域文本",
+  "voice": "Medium Low",
+  "meter": "3/4",
+  "tempo": "Allegretto ♩=116–132",
+  "structure": "A1–B–A2（A2 为再现）",
+  "intro": "卡尔达拉（Antonio Caldara）是威尼斯圣马可大教堂唱诗班出身，1710 年为马切拉塔公共剧院创作《La costanza in amor vince l'inganno》（忠诚的爱情战胜欺骗）。剧中牧羊人 Aminta 对一度爱过他的牧羊女 Silvia 唱出这首歌：即使你让我憔悴，我仍将永远忠诚地爱你；以我长久的服侍，终将磨去你的骄傲。全曲是三拍子小步舞曲风格，旋律优雅克制，是学习意大利语恳求语气、legato 连音与开闭口元音的经典曲目。",
+  "lyrics": [
+    {
+      "section": "A1",
+      "it": "Sebben, crudele,",
+      "zh": "即使你如此狠心，",
+      "words": [
+        { "it": "Sebben", "ipa": "sebˈbɛn", "zh": "即使（se bene 的缩略）" },
+        { "it": "crudele", "ipa": "kruˈdɛː.le", "zh": "残酷的" }
+      ],
+      "notes": "Sebben 双 b 延长 [bb]，e 开口 [ɛ]，重音在词尾 ben；crudele 的 e 开口 [ɛ]，重音在 -de-。"
+    },
+    {
+      "section": "A1",
+      "it": "Mi fai languir,",
+      "zh": "你让我憔悴，",
+      "words": [
+        { "it": "Mi", "ipa": "mi", "zh": "我" },
+        { "it": "fai", "ipa": "fai", "zh": "你使（fare 第二人称）" },
+        { "it": "languir", "ipa": "laŋˈɡwir", "zh": "憔悴（languire 的缩略）" }
+      ],
+      "notes": "languir 是不定式缩略，重音在词尾；r 颤音收在词尾要干净。"
+    },
+    {
+      "section": "A1",
+      "it": "Sempre fedele",
+      "zh": "永远忠诚",
+      "words": [
+        { "it": "Sempre", "ipa": "ˈsɛm.pre", "zh": "永远" },
+        { "it": "fedele", "ipa": "feˈdeː.le", "zh": "忠诚的" }
+      ],
+      "notes": "Sempre 的 e 开口 [ɛ]，p 不送气；fedele 的 e 闭口 [e]——注意与 crudele 的开口 [ɛ] 相对，这是本曲最重要的开闭口对比。"
+    },
+    {
+      "section": "A1",
+      "it": "Ti voglio amar.",
+      "zh": "我要爱你。",
+      "words": [
+        { "it": "Ti", "ipa": "ti", "zh": "你" },
+        { "it": "voglio", "ipa": "ˈvɔʎ.ʎo", "zh": "我要（volere 第一人称）" },
+        { "it": "amar", "ipa": "aˈmar", "zh": "爱（amare 的缩略）" }
+      ],
+      "notes": "voglio 的 o 开口 [ɔ]；gli 读 [ʎʎ]（舌面贴硬腭的边音，类似拼音 li 的舌位但更短促），是意大利语特色音。"
+    },
+    {
+      "section": "B",
+      "it": "Con la lunghezza",
+      "zh": "以长久的",
+      "words": [
+        { "it": "Con", "ipa": "kon", "zh": "以" },
+        { "it": "la", "ipa": "la", "zh": "（定冠词）" },
+        { "it": "lunghezza", "ipa": "luŋˈɡet.tsa", "zh": "长久" }
+      ],
+      "notes": "lunghezza 的 zz 读 [tts] 并延长；e 闭口 [e]，重音在 -ghez-。"
+    },
+    {
+      "section": "B",
+      "it": "Del mio servir",
+      "zh": "我的服侍",
+      "words": [
+        { "it": "Del", "ipa": "del", "zh": "……的（di+il）" },
+        { "it": "mio", "ipa": "ˈmiː.o", "zh": "我的" },
+        { "it": "servir", "ipa": "serˈvir", "zh": "服侍（servire 的缩略）" }
+      ],
+      "notes": "servir 的 e 闭口 [e]，重音词尾；mio 的 i-o 两音节分开。"
+    },
+    {
+      "section": "B",
+      "it": "La tua fierezza",
+      "zh": "你的骄傲",
+      "words": [
+        { "it": "La", "ipa": "la", "zh": "（定冠词）" },
+        { "it": "tua", "ipa": "ˈtuː.a", "zh": "你的" },
+        { "it": "fierezza", "ipa": "fjeˈret.tsa", "zh": "骄傲、高傲" }
+      ],
+      "notes": "fierezza 的 zz [tts] 延长；fie- 为双元音 [fje]；e 闭口 [e]，重音在 -rez-。"
+    },
+    {
+      "section": "B",
+      "it": "Saprò stancar.",
+      "zh": "我将能磨去。",
+      "words": [
+        { "it": "Saprò", "ipa": "saˈprɔ", "zh": "我将能（sapere 将来时）" },
+        { "it": "stancar", "ipa": "staŋˈkar", "zh": "使疲倦（stancare 的缩略）" }
+      ],
+      "notes": "Saprò 的 o 开口 [ɔ]，重音在词尾，是全曲情绪高点，开口 [ɔ] 要圆、立、不散。"
+    },
+    {
+      "section": "A2",
+      "it": "Sebben, crudele,",
+      "zh": "即使你如此狠心，",
+      "words": [
+        { "it": "Sebben", "ipa": "sebˈbɛn", "zh": "即使" },
+        { "it": "crudele", "ipa": "kruˈdɛː.le", "zh": "残酷的" }
+      ],
+      "notes": "A2 再现，唱法同 A1，但收尾时语气更恳切。"
+    },
+    {
+      "section": "A2",
+      "it": "Mi fai languir,",
+      "zh": "你让我憔悴，",
+      "words": [
+        { "it": "Mi", "ipa": "mi", "zh": "我" },
+        { "it": "fai", "ipa": "fai", "zh": "你使" },
+        { "it": "languir", "ipa": "laŋˈɡwir", "zh": "憔悴" }
+      ],
+      "notes": ""
+    },
+    {
+      "section": "A2",
+      "it": "Sempre fedele",
+      "zh": "永远忠诚",
+      "words": [
+        { "it": "Sempre", "ipa": "ˈsɛm.pre", "zh": "永远" },
+        { "it": "fedele", "ipa": "feˈdeː.le", "zh": "忠诚的" }
+      ],
+      "notes": ""
+    },
+    {
+      "section": "A2",
+      "it": "Ti voglio amar.",
+      "zh": "我要爱你。",
+      "words": [
+        { "it": "Ti", "ipa": "ti", "zh": "你" },
+        { "it": "voglio", "ipa": "ˈvɔʎ.ʎo", "zh": "我要" },
+        { "it": "amar", "ipa": "aˈmar", "zh": "爱" }
+      ],
+      "notes": "全曲终止，voglio 的 [ʎʎ] 与 amar 的词尾颤音 r 要收得干净。"
+    }
+  ],
+  "diction_notes": [
+    "本曲是开闭口元音的教科书：开口 [ɛ]（Sebben、crudele、Sempre、crudel）与闭口 [e]（fedele、servir、lunghezza、fierezza）交替出现，唱错等于说错词意。",
+    "双辅音必须延长：Sebben 的 [bb]、fierezza 与 lunghezza 的 [tts]——三拍子节奏下辅音时值要精确落在拍点上。",
+    "gli 音（voglio）：舌面前部贴硬腭，气流从舌两侧泄出，是意大利语区别于其他语言的特征音，需单独训练。",
+    "缩略不定式（languir、amar、servir、stancar）重音一律在词尾，与完整形式（languire 重音在 -gui-）不同，勿受完整词影响。",
+    "Saprò 的开口 [ɔ] 是全曲最高音，高音上的开口元音要保持圆唇、立住，不散不白。",
+    "全曲小步舞曲性格，Allegretto 下仍要保持优雅，辅音不能比元音重。"
+  ],
+  "practice_tips": [
+    "先练双辅音时值：Seb-ben 要真正停在双 b 上，fierez-za 的 zz 要拉满。",
+    "B 段（Con la lunghezza…Saprò stancar）是长乐句 legato 练习，一口气连唱不换气，锻炼气息支撑。",
+    "用 mp 起唱，A1 保持克制，B 段渐强推向 Saprò 的开口 [ɔ]。",
+    "全曲音域约一个八度，适合男中音中声区暖声与三拍子律动练习。"
+  ]
+}

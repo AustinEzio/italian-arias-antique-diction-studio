@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Italian Diction Studio · 意大利语歌曲咬字训练</title>
+<style>
+  :root {
+    --bg: #faf6ee;
+    --panel: #ffffff;
+    --ink: #2e2620;
+    --muted: #7a6f63;
+    --accent: #8c2f2f;
+    --accent-soft: #f3e3dd;
+    --gold: #b8860b;
+    --line: #e6dccd;
+    --done: #4a7c59;
+    --todo: #c9bfae;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+    min-height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, #4a2e1e 0%, #6b4030 100%);
+    color: #f5ecdf;
+    padding: 28px 40px;
+  }
+  header h1 { font-size: 26px; letter-spacing: 1px; font-weight: 700; }
+  header h1 span { color: #e8c07d; }
+  header p { margin-top: 6px; font-size: 14px; color: #d8c8b2; }
+  .layout { display: flex; max-width: 1280px; margin: 0 auto; min-height: calc(100vh - 120px); }
+  /* 侧栏曲目列表 */
+  aside {
+    width: 260px; flex-shrink: 0;
+    background: var(--panel);
+    border-right: 1px solid var(--line);
+    padding: 18px 14px;
+    overflow-y: auto;
+  }
+  aside h2 { font-size: 13px; color: var(--muted); letter-spacing: 2px; margin: 4px 8px 10px; }
+  .song-item {
+    display: flex; align-items: center; gap: 8px;
+    padding: 9px 10px; border-radius: 8px; cursor: pointer;
+    font-size: 14px; color: var(--muted);
+    margin-bottom: 2px; user-select: none;
+  }
+  .song-item:hover { background: #f3ede2; }
+  .song-item.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .song-item .no { font-size: 11px; color: var(--gold); font-weight: 700; width: 20px; }
+  .song-item.done .title-it { color: var(--ink); }
+  .song-item.todo { cursor: default; }
+  .song-item.todo .title-it { color: var(--todo); }
+  .badge { margin-left: auto; font-size: 10px; color: var(--done); font-weight: 600; }
+  /* 主区 */
+  main { flex: 1; padding: 30px 40px 60px; }
+  .song-head { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  .song-head h3 { font-size: 30px; font-weight: 700; }
+  .song-head .zh { font-size: 18px; color: var(--muted); }
+  .meta-row {
+    margin-top: 10px; font-size: 13px; color: var(--muted);
+    display: flex; gap: 18px; flex-wrap: wrap;
+  }
+  .meta-row b { color: var(--ink); font-weight: 600; }
+  .intro {
+    margin-top: 16px; padding: 14px 18px;
+    background: var(--panel); border-left: 4px solid var(--gold);
+    border-radius: 6px; font-size: 14px; line-height: 1.7;
+  }
+  .audio-box { margin-top: 16px; padding: 14px 18px; background: var(--panel); border-radius: 8px; }
+  .audio-box audio { width: 100%; }
+  .audio-box .hint { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  section.block { margin-top: 26px; }
+  section.block h4 {
+    font-size: 14px; color: var(--accent); letter-spacing: 1px;
+    border-bottom: 2px solid var(--accent-soft); padding-bottom: 6px; margin-bottom: 14px;
+  }
+  /* 歌词行 */
+  .lyric-line {
+    display: flex; align-items: flex-start; gap: 8px;
+    padding: 10px 12px; border-radius: 8px; margin-bottom: 6px;
+    background: var(--panel); border: 1px solid var(--line);
+  }
+  .lyric-line .sec {
+    font-size: 11px; color: var(--gold); font-weight: 700;
+    min-width: 34px; padding-top: 4px;
+  }
+  .lyric-line .words { display: flex; flex-wrap: wrap; gap: 14px; flex: 1; }
+  .word { display: flex; flex-direction: column; min-width: 40px; }
+  .word .ipa { font-size: 12px; color: var(--accent); font-family: "DejaVu Sans Mono", "Noto Sans", monospace; }
+  .word .it { font-size: 17px; font-weight: 600; margin-top: 1px; }
+  .word .zh { font-size: 11px; color: var(--muted); margin-top: 1px; }
+  .lyric-line .line-zh {
+    font-size: 13px; color: var(--muted); font-style: italic;
+    align-self: center; padding-left: 14px; border-left: 1px solid var(--line);
+    max-width: 260px; min-width: 120px;
+  }
+  .lyric-line .line-notes {
+    font-size: 11.5px; color: #5a4f45; line-height: 1.5;
+    align-self: center; max-width: 300px;
+  }
+  .line-notes b { color: var(--accent); }
+  .notes-list li, .tips-list li { font-size: 14px; line-height: 1.7; margin: 6px 0 6px 20px; }
+  .notes-list li::marker { color: var(--accent); }
+  .tips-list li::marker { color: var(--gold); }
+  .empty {
+    text-align: center; color: var(--muted); padding: 80px 0; font-size: 15px;
+  }
+  footer {
+    border-top: 1px solid var(--line); padding: 18px 40px;
+    font-size: 12px; color: var(--muted); text-align: center;
+  }
+  @media (max-width: 900px) {
+    .layout { flex-direction: column; }
+    aside { width: 100%; border-right: none; border-bottom: 1px solid var(--line); }
+    main { padding: 20px; }
+    .lyric-line { flex-wrap: wrap; }
+    .lyric-line .line-zh { border-left: none; padding-left: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Italian Diction Studio <span>·</span> 意大利语歌曲咬字训练</h1>
+  <p>26 Italian Songs and Arias 逐字 IPA 注音 · 中文直译 · 发音要点 · 示范音频（开源项目）</p>
+</header>
+
+<div class="layout">
+  <aside>
+    <h2>曲目列表</h2>
+    <div id="song-list"></div>
+  </aside>
+  <main id="main"></main>
+</div>
+
+<footer>
+  歌词原文为 17–18 世纪公有领域文本；IPA 注音与中文翻译为本项目原创（MIT）。本页面不含任何出版社书籍的版权内容。
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  const listEl = document.getElementById("song-list");
+  const mainEl = document.getElementById("main");
+
+  // 元信息标签（有值才显示）
+  function metaTag(label, value) {
+    if (!value) return "";
+    return '<span>' + label + '：<b>' + escapeHtml(value) + '</b></span>';
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function renderList() {
+    listEl.innerHTML = "";
+    window.SONGS.forEach(function (song) {
+      const el = document.createElement("div");
+      el.className = "song-item done";
+      el.id = "nav-" + song.id;
+      el.innerHTML =
+        '<span class="no">' + song.number + '</span>' +
+        '<span class="title-it">' + escapeHtml(song.title.it) + '</span>' +
+        '<span class="badge">已收录</span>';
+      el.addEventListener("click", function () {
+        location.hash = song.id;
+        renderSong(song);
+      });
+      listEl.appendChild(el);
+    });
+  }
+
+  function lyricLineHtml(line) {
+    let wordsHtml = line.words.map(function (w) {
+      return '<span class="word">' +
+        '<span class="ipa">/' + escapeHtml(w.ipa) + '/</span>' +
+        '<span class="it">' + escapeHtml(w.it) + '</span>' +
+        '<span class="zh">' + escapeHtml(w.zh) + '</span>' +
+        '</span>';
+    }).join("");
+    const notesHtml = line.notes
+      ? '<div class="line-notes">' + escapeHtml(line.notes) + '</div>'
+      : '<div class="line-notes"></div>';
+    return '<div class="lyric-line">' +
+      '<span class="sec">' + escapeHtml(line.section) + '</span>' +
+      '<span class="words">' + wordsHtml + '</span>' +
+      '<div class="line-zh">' + escapeHtml(line.zh) + '</div>' +
+      notesHtml +
+      '</div>';
+  }
+
+  function renderSong(song) {
+    // 高亮侧栏
+    Array.prototype.forEach.call(listEl.children, function (child, i) {
+      child.classList.toggle("active", window.SONGS[i] === song);
+    });
+
+    const audioBlock = song.id + "-demo.wav"
+      ? '<section class="audio-box"><h4>示范音频（逐句朗读）</h4>' +
+        '<audio controls preload="none" src="audio/' + song.id + '-demo.wav"></audio>' +
+        '<div class="hint">男声 · 标准美声意大利语 · 逐句慢速朗读，可对照上方歌词跟读。</div></section>'
+      : "";
+
+    const lyricsHtml = song.lyrics.map(lyricLineHtml).join("");
+    const notesHtml = (song.diction_notes || []).map(function (n) {
+      return "<li>" + escapeHtml(n) + "</li>";
+    }).join("");
+    const tipsHtml = (song.practice_tips || []).map(function (t) {
+      return "<li>" + escapeHtml(t) + "</li>";
+    }).join("");
+    const variantsHtml = (song.variants || []).map(function (v) {
+      return '<div class="intro" style="border-left-color: var(--accent);">' +
+        '<b>' + escapeHtml(v.label) + '</b><br>' +
+        '<span style="font-style: italic;">' + escapeHtml(v.it) + '</span><br>' +
+        escapeHtml(v.zh) + '</div>';
+    }).join("");
+
+    mainEl.innerHTML =
+      '<div class="song-head">' +
+        '<h3>' + escapeHtml(song.title.it) + '</h3>' +
+        '<span class="zh">' + escapeHtml(song.title.zh) + '</span>' +
+      '</div>' +
+      '<div class="meta-row">' +
+        metaTag("作曲家", song.composer.name + (song.composer.life ? "（" + song.composer.life + "）" : "")) +
+        metaTag("音域版", song.voice) +
+        metaTag("拍号", song.meter) +
+        metaTag("速度", song.tempo) +
+        metaTag("结构", song.structure) +
+        metaTag("出处", song.source) +
+      '</div>' +
+      '<div class="intro">' + escapeHtml(song.intro) + '</div>' +
+      audioBlock +
+      '<section class="block"><h4>歌词 · 逐字 IPA · 词义对照</h4>' + lyricsHtml + '</section>' +
+      (variantsHtml ? '<section class="block"><h4>同曲异文版本</h4>' + variantsHtml + '</section>' : "") +
+      (notesHtml ? '<section class="block"><h4>整曲发音要点</h4><ol class="notes-list">' + notesHtml + '</ol></section>' : "") +
+      (tipsHtml ? '<section class="block"><h4>练习建议</h4><ol class="tips-list">' + tipsHtml + '</ol></section>' : "");
+  }
+
+  function renderInitial() {
+    renderList();
+    if (window.SONGS.length === 0) return;
+    const id = decodeURIComponent(location.hash.replace(/^#/, ""));
+    const hit = window.SONGS.find(function (s) { return s.id === id; });
+    renderSong(hit || window.SONGS[0]);
+  }
+
+  window.addEventListener("hashchange", renderInitial);
+  renderInitial();
+})();
+</script>
+</body>
+</html>
