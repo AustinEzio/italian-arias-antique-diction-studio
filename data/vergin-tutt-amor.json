@@ -1,0 +1,133 @@
+{
+  "id": "vergin-tutt-amor",
+  "number": 18,
+  "title": {
+    "it": "Vergin, tutt'amor",
+    "zh": "圣母，全然是爱的化身"
+  },
+  "composer": {
+    "name": "Francesco Durante",
+    "life": "1684–1755"
+  },
+  "source": "原为《Solfèges d'Italie》No.128（巴黎，1772）无词练声曲，歌词 1874 年始见于《Échos d'Italie》；《26 Italian Songs and Arias》第18首；歌词为19世纪公有领域文本",
+  "voice": "Medium Low",
+  "meter": "12/4（原谱 D 小调，人声+数字低音）",
+  "tempo": "行板（Andante）",
+  "structure": "通谱（祈祷式咏叹调）",
+  "intro": "杜兰特（Francesco Durante）被推崇为当时最有学问的作曲家之一，是佩尔戈莱西等人的老师，以教堂音乐与教学作品闻名。本曲原是 1772 年巴黎出版的《意大利练声曲集》中的第 128 首无词练声曲（solfeggio，原意为用 sol、fa 等音节或纯元音练唱）；一个多世纪后（1874 年）才被配上歌词，成为向圣母玛利亚的祈祷：\"圣母，全然是爱的化身，哦仁慈之母、虔诚之母，请垂听，甜蜜的玛利亚，罪人的声音。愿他的哭泣打动你，愿他的悲叹传到你面前；他的痛苦、他悲伤的语调，愿你慈悲的心聆听。\"可自由选择带词或不带词演唱。注意通行版\"Vergin, tutto amor\"语法有误（圣母为阴性，应为 tutta/tutt'amor）。",
+  "lyrics": [
+    {
+      "section": "A",
+      "it": "Vergin, tutt'amor,",
+      "zh": "圣母，全然是爱的化身，",
+      "words": [
+        { "it": "Vergin", "ipa": "ˈvɛr.dʒin", "zh": "圣母（Vergine 的缩略）" },
+        { "it": "tutt'amor", "ipa": "tuttaˈmor", "zh": "全然是爱（tutta+amore）" }
+      ],
+      "notes": "Vergin 的 e 开口 [ɛ]、g 在 i 前读 [dʒ]；tutt'amor 双 t [tt]、重音词尾。"
+    },
+    {
+      "section": "A",
+      "it": "O madre di bontade, madre pia,",
+      "zh": "哦仁慈之母，虔诚之母，",
+      "words": [
+        { "it": "O", "ipa": "o", "zh": "哦" },
+        { "it": "madre", "ipa": "ˈmaː.dre", "zh": "母亲" },
+        { "it": "di", "ipa": "di", "zh": "……的" },
+        { "it": "bontade", "ipa": "bonˈtaː.de", "zh": "仁慈（bontà 的古语）" },
+        { "it": "madre", "ipa": "ˈmaː.dre", "zh": "母亲" },
+        { "it": "pia", "ipa": "ˈpiː.a", "zh": "虔诚的" }
+      ],
+      "notes": "bontade 是古语完整形（今作 bontà）。"
+    },
+    {
+      "section": "A",
+      "it": "Ascolta, dolce Maria,",
+      "zh": "请垂听，甜蜜的玛利亚，",
+      "words": [
+        { "it": "Ascolta", "ipa": "asˈkol.ta", "zh": "请听" },
+        { "it": "dolce", "ipa": "ˈdol.tʃe", "zh": "甜蜜的" },
+        { "it": "Maria", "ipa": "maˈriː.a", "zh": "玛利亚" }
+      ],
+      "notes": "Ascolta 重音在 -scol-；dolce 的 o 闭口 [o]。"
+    },
+    {
+      "section": "A",
+      "it": "La voce del peccator.",
+      "zh": "罪人的声音。",
+      "words": [
+        { "it": "La", "ipa": "la", "zh": "（定冠词）" },
+        { "it": "voce", "ipa": "ˈvoː.tʃe", "zh": "声音" },
+        { "it": "del", "ipa": "del", "zh": "……的" },
+        { "it": "peccator", "ipa": "pekkaˈtor", "zh": "罪人（peccatore 的缩略）" }
+      ],
+      "notes": "peccator 双 c [kk]、重音词尾。"
+    },
+    {
+      "section": "B",
+      "it": "Il pianto suo ti muova,",
+      "zh": "愿他的哭泣打动你，",
+      "words": [
+        { "it": "Il", "ipa": "il", "zh": "（定冠词）" },
+        { "it": "pianto", "ipa": "ˈpjan.to", "zh": "哭泣" },
+        { "it": "suo", "ipa": "ˈsuː.o", "zh": "他的" },
+        { "it": "ti", "ipa": "ti", "zh": "你" },
+        { "it": "muova", "ipa": "ˈmwɔː.va", "zh": "打动（muovere 虚拟式）" }
+      ],
+      "notes": "muova 的 o 开口 [ɔ]；虚拟式语气=祈愿。"
+    },
+    {
+      "section": "B",
+      "it": "Giungan a te suoi lamenti.",
+      "zh": "愿他的悲叹传到你面前。",
+      "words": [
+        { "it": "Giungan", "ipa": "ˈdʒun.ɡan", "zh": "到达（giungere 虚拟式）" },
+        { "it": "a", "ipa": "a", "zh": "到" },
+        { "it": "te", "ipa": "te", "zh": "你" },
+        { "it": "suoi", "ipa": "ˈswɔi", "zh": "他的" },
+        { "it": "lamenti", "ipa": "laˈmɛn.ti", "zh": "悲叹" }
+      ],
+      "notes": "suoi 的 o 开口 [ɔ]；lamenti 的 e 开口 [ɛ]。"
+    },
+    {
+      "section": "B",
+      "it": "Suo duol, suoi tristi accenti,",
+      "zh": "他的痛苦、他悲伤的语调，",
+      "words": [
+        { "it": "Suo", "ipa": "ˈsuː.o", "zh": "他的" },
+        { "it": "duol", "ipa": "ˈdwɔl", "zh": "痛苦（dolore 的诗语）" },
+        { "it": "suoi", "ipa": "ˈswɔi", "zh": "他的" },
+        { "it": "tristi", "ipa": "ˈtris.ti", "zh": "悲伤的" },
+        { "it": "accenti", "ipa": "atˈtʃɛn.ti", "zh": "语调" }
+      ],
+      "notes": "duol 的 o 开口 [ɔ]；accenti 双 c [ttʃ]、e 开口 [ɛ]。"
+    },
+    {
+      "section": "B",
+      "it": "Senti pietoso quel tuo cor.",
+      "zh": "愿你慈悲的心聆听。",
+      "words": [
+        { "it": "Senti", "ipa": "ˈsɛn.ti", "zh": "请听" },
+        { "it": "pietoso", "ipa": "pjeˈtoː.zo", "zh": "慈悲的" },
+        { "it": "quel", "ipa": "kwel", "zh": "那个" },
+        { "it": "tuo", "ipa": "ˈtuː.o", "zh": "你的" },
+        { "it": "cor", "ipa": "kor", "zh": "心（cuore 的缩略）" }
+      ],
+      "notes": "Senti 的 e 开口 [ɛ]；pietoso 的 s 浊音 [z]；cor 的 o 闭口 [o]。"
+    }
+  ],
+  "diction_notes": [
+    "本曲原是练声曲：若不唱词，大量重复音是练断音（staccato）的好材料；带词演唱则按祈祷语气。",
+    "开闭口对照：Vergin [ɛ]、Senti [ɛ]、lamenti [ɛ]、accenti [ɛ] 与 dolce [o]、voce [o]、cor [o]。",
+    "双辅音/塞擦音：tutt'amor [tt]、peccator [kk]、accenti [ttʃ]。",
+    "古语：bontade（bontà）、Vergin（Vergine）、duol（dolore）、cor（cuore）、peccator（peccatore）。",
+    "语法要点：通行版\"tutto amor\"错误，应为阴性 tutta/tutt'amor——本谱已纠正。",
+    "全曲是虔诚祈祷：速度平稳（12/4 行板），力度轻柔渐进，忌戏剧化。"
+  ],
+  "practice_tips": [
+    "带词演唱时先按\"称呼-请求\"分层：Vergin/madre/Maria 是呼唤，Ascolta/Senti 是恳求。",
+    "不带词演唱时，把重复音当断音练习，注意辅音不破坏线条。",
+    "12/4 的宽拍子保持平稳流动，句尾不赶。",
+    "虚拟式句（ti muova/Giungan）是祈愿语气，唱时稍放轻。"
+  ]
+}
