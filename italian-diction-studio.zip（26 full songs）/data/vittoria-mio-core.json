@@ -1,0 +1,261 @@
+{
+  "id": "vittoria-mio-core",
+  "number": 3,
+  "title": {
+    "it": "Vittoria, mio core!",
+    "zh": "胜利了，我的心！"
+  },
+  "composer": {
+    "name": "Giacomo Carissimi",
+    "life": "1605–1674"
+  },
+  "source": "出自卡里西米约150首独唱康塔塔之一（约1630年代，1656年鹿特丹出版）；《26 Italian Songs and Arias》第3首；歌词为17世纪公有领域文本",
+  "voice": "Medium Low",
+  "meter": "3拍",
+  "tempo": "欢快、胜利（Allegro 性格）",
+  "structure": "副歌 REFRAIN + 两段诗节（可唱 ABA 或 ABABA）",
+  "intro": "卡里西米（Giacomo Carissimi）是罗马教会音乐家、耶稣会神父，以合唱与独唱康塔塔闻名。《胜利了，我的心！》是他的康塔塔中最短小精悍的一首，流传极广（现存至少十三份早期手稿）。歌者庆祝爱情的终结：\"胜利了，我的心！不要再哭泣！爱情的锁链已解开，那卑贱的奴役结束了。\"随后两段诗节回望旧日痛苦（她那残酷的情火已经熄灭；她的箭不再能刺伤我），最后宣告每一条绳索都已断裂、恐惧已经消散。本曲可只唱一段诗节（ABA）或两段全唱（ABABA）。",
+  "lyrics": [
+    {
+      "section": "副歌",
+      "it": "Vittoria, mio core!",
+      "zh": "胜利了，我的心！",
+      "words": [
+        { "it": "Vittoria", "ipa": "vitˈtɔː.rja", "zh": "胜利" },
+        { "it": "mio", "ipa": "ˈmiː.o", "zh": "我的" },
+        { "it": "core", "ipa": "ˈkoː.re", "zh": "心（cuore 的诗语）" }
+      ],
+      "notes": "Vittoria 的双 t [tt] 延长、o 开口 [ɔ]；core 的 o 闭口 [o]。"
+    },
+    {
+      "section": "副歌",
+      "it": "Non lagrimar più!",
+      "zh": "不要再哭泣！",
+      "words": [
+        { "it": "Non", "ipa": "non", "zh": "不" },
+        { "it": "lagrimar", "ipa": "laɡriˈmar", "zh": "哭泣（lagrimare 的缩略）" },
+        { "it": "più", "ipa": "pju", "zh": "再" }
+      ],
+      "notes": "lagrimar 重音词尾；più 的 i 滑音要短促。"
+    },
+    {
+      "section": "副歌",
+      "it": "È sciolta d'amore",
+      "zh": "爱情的锁链已解开",
+      "words": [
+        { "it": "È", "ipa": "ɛ", "zh": "是（系动词）" },
+        { "it": "sciolta", "ipa": "ˈʃɔl.ta", "zh": "解开的" },
+        { "it": "d'amore", "ipa": "daˈmoː.re", "zh": "爱情的" }
+      ],
+      "notes": "sciolta 的 sc 读 [ʃ]、o 开口 [ɔ]；è 开口 [ɛ] 是全句情绪落点。"
+    },
+    {
+      "section": "副歌",
+      "it": "La vil servitù.",
+      "zh": "那卑贱的奴役。",
+      "words": [
+        { "it": "La", "ipa": "la", "zh": "（定冠词）" },
+        { "it": "vil", "ipa": "vil", "zh": "卑贱的" },
+        { "it": "servitù", "ipa": "serviˈtu", "zh": "奴役" }
+      ],
+      "notes": "servitù 重音在词尾 ù，e 闭口 [e]。"
+    },
+    {
+      "section": "第一段",
+      "it": "Già l'empia a' tuoi danni,",
+      "zh": "那狠心的人曾为了伤害你，",
+      "words": [
+        { "it": "Già", "ipa": "dʒa", "zh": "曾经" },
+        { "it": "l'empia", "ipa": "ˈlɛm.pja", "zh": "那狠心的人" },
+        { "it": "a' tuoi danni", "ipa": "a ˈtwɔi ˈdan.ni", "zh": "为了你的伤害" }
+      ],
+      "notes": "empia 的 e 开口 [ɛ]；tuoi 的 o 开口 [ɔ]；danni 双 n。"
+    },
+    {
+      "section": "第一段",
+      "it": "Fra stuolo di sguardi,",
+      "zh": "在一群目光中，",
+      "words": [
+        { "it": "Fra", "ipa": "fra", "zh": "在……之中" },
+        { "it": "stuolo", "ipa": "ˈstwɔː.lo", "zh": "一群" },
+        { "it": "di", "ipa": "di", "zh": "……的" },
+        { "it": "sguardi", "ipa": "ˈzɡwar.di", "zh": "目光" }
+      ],
+      "notes": "stuolo 的 o 开口 [ɔ]；sguardi 的 s 在浊辅音前读 [z]。"
+    },
+    {
+      "section": "第一段",
+      "it": "Con vezzi bugiardi",
+      "zh": "用虚假的媚态",
+      "words": [
+        { "it": "Con", "ipa": "kon", "zh": "用" },
+        { "it": "vezzi", "ipa": "ˈvet.tsi", "zh": "媚态（vezzo 复数）" },
+        { "it": "bugiardi", "ipa": "buˈdʒar.di", "zh": "虚假的" }
+      ],
+      "notes": "vezzi 的 zz 读 [tts] 并延长；bugiardi 的 g 在 i 前读 [dʒ]。"
+    },
+    {
+      "section": "第一段",
+      "it": "Dispose gl'inganni.",
+      "zh": "布下了骗局。",
+      "words": [
+        { "it": "Dispose", "ipa": "diˈspɔː.ze", "zh": "布置（disporre 远过去时）" },
+        { "it": "gl'inganni", "ipa": "ʎʎinˈɡan.ni", "zh": "骗局" }
+      ],
+      "notes": "Dispose 的 o 开口 [ɔ]、s 浊音 [z]；gl' 读 [ʎʎ]（舌面边音），inganni 双 n。"
+    },
+    {
+      "section": "第一段",
+      "it": "Le frodi, gl'affanni,",
+      "zh": "欺诈与忧愁，",
+      "words": [
+        { "it": "Le", "ipa": "le", "zh": "（定冠词）" },
+        { "it": "frodi", "ipa": "ˈfrɔː.di", "zh": "欺诈" },
+        { "it": "gl'affanni", "ipa": "ʎʎafˈfan.ni", "zh": "忧愁" }
+      ],
+      "notes": "frodi 的 o 开口 [ɔ]；gl' 读 [ʎʎ]；affanni 双 f 双 n。"
+    },
+    {
+      "section": "第一段",
+      "it": "Non hanno più loco.",
+      "zh": "再也没有容身之处。",
+      "words": [
+        { "it": "Non", "ipa": "non", "zh": "不" },
+        { "it": "hanno", "ipa": "ˈan.no", "zh": "他们有（avere 第三人称）" },
+        { "it": "più", "ipa": "pju", "zh": "再" },
+        { "it": "loco", "ipa": "ˈlɔː.ko", "zh": "地方（luogo 的古语）" }
+      ],
+      "notes": "hanno 的 h 不发音、双 n 延长；loco 的 o 开口 [ɔ]。"
+    },
+    {
+      "section": "第一段",
+      "it": "Del crudo suo foco",
+      "zh": "她那残酷的情火",
+      "words": [
+        { "it": "Del", "ipa": "del", "zh": "……的" },
+        { "it": "crudo", "ipa": "ˈkruː.do", "zh": "残酷的" },
+        { "it": "suo", "ipa": "ˈsuː.o", "zh": "她的" },
+        { "it": "foco", "ipa": "ˈfɔː.ko", "zh": "火焰（fuoco 的古语）" }
+      ],
+      "notes": "foco 的 o 开口 [ɔ]——古语词，勿与闭口 [o] 混淆。"
+    },
+    {
+      "section": "第一段",
+      "it": "È spento l'ardore.",
+      "zh": "炽热已熄灭。",
+      "words": [
+        { "it": "È", "ipa": "ɛ", "zh": "是" },
+        { "it": "spento", "ipa": "ˈspɛn.to", "zh": "熄灭的" },
+        { "it": "l'ardore", "ipa": "larˈdoː.re", "zh": "炽热" }
+      ],
+      "notes": "spento 的 e 开口 [ɛ]；ardore 的 o 闭口 [o]。"
+    },
+    {
+      "section": "第二段",
+      "it": "Da luci ridenti",
+      "zh": "从那含笑的眼睛里",
+      "words": [
+        { "it": "Da", "ipa": "da", "zh": "从" },
+        { "it": "luci", "ipa": "ˈluː.tʃi", "zh": "眼睛（lucente 之 luci，诗语）" },
+        { "it": "ridenti", "ipa": "riˈdɛn.ti", "zh": "含笑的" }
+      ],
+      "notes": "luci 的 c 在 i 前读 [tʃ]；ridenti 的 e 开口 [ɛ]。"
+    },
+    {
+      "section": "第二段",
+      "it": "Non esce più strale",
+      "zh": "不再射出箭矢",
+      "words": [
+        { "it": "Non", "ipa": "non", "zh": "不" },
+        { "it": "esce", "ipa": "ˈeʃ.ʃe", "zh": "射出" },
+        { "it": "più", "ipa": "pju", "zh": "再" },
+        { "it": "strale", "ipa": "ˈstraː.le", "zh": "箭（诗语）" }
+      ],
+      "notes": "esce 的 sc 读 [ʃ] 且延长 [ʃʃ]。"
+    },
+    {
+      "section": "第二段",
+      "it": "Che piaga mortale",
+      "zh": "能带来致命之伤",
+      "words": [
+        { "it": "Che", "ipa": "ke", "zh": "（关系代词）" },
+        { "it": "piaga", "ipa": "ˈpjaː.ɡa", "zh": "伤口" },
+        { "it": "mortale", "ipa": "morˈtaː.le", "zh": "致命的" }
+      ],
+      "notes": "piaga 的 a 开口长音，唱足时值。"
+    },
+    {
+      "section": "第二段",
+      "it": "Nel petto m'avventi.",
+      "zh": "刺入我的胸膛。",
+      "words": [
+        { "it": "Nel", "ipa": "nel", "zh": "在……中" },
+        { "it": "petto", "ipa": "ˈpɛt.to", "zh": "胸膛" },
+        { "it": "m'avventi", "ipa": "mavˈvɛn.ti", "zh": "向我投来（avventare 虚拟式）" }
+      ],
+      "notes": "petto 双 t [tt]；m'avventi 双 v [vv]。"
+    },
+    {
+      "section": "第二段",
+      "it": "Nel duol, ne' tormenti",
+      "zh": "在悲伤与痛苦中",
+      "words": [
+        { "it": "Nel", "ipa": "nel", "zh": "在……中" },
+        { "it": "duol", "ipa": "ˈdwɔl", "zh": "悲伤（dolore 的诗语）" },
+        { "it": "ne'", "ipa": "ne", "zh": "在……中（nei 的省略）" },
+        { "it": "tormenti", "ipa": "torˈmɛn.ti", "zh": "痛苦" }
+      ],
+      "notes": "duol 的 o 开口 [ɔ]；tormenti 的 e 开口 [ɛ]。"
+    },
+    {
+      "section": "第二段",
+      "it": "Io più non mi sfaccio.",
+      "zh": "我不再消融。",
+      "words": [
+        { "it": "Io", "ipa": "ˈiː.o", "zh": "我" },
+        { "it": "più", "ipa": "pju", "zh": "再" },
+        { "it": "non", "ipa": "non", "zh": "不" },
+        { "it": "mi", "ipa": "mi", "zh": "自己" },
+        { "it": "sfaccio", "ipa": "ˈsfat.tʃo", "zh": "消融、毁灭（sfare 反身）" }
+      ],
+      "notes": "sfaccio 双 c 读 [ttʃ]、a 开口。"
+    },
+    {
+      "section": "第二段",
+      "it": "È rotto ogni laccio,",
+      "zh": "每一条绳索都已断裂，",
+      "words": [
+        { "it": "È", "ipa": "ɛ", "zh": "是" },
+        { "it": "rotto", "ipa": "ˈrɔt.to", "zh": "断裂的" },
+        { "it": "ogni", "ipa": "ˈoɲ.ɲi", "zh": "每一个" },
+        { "it": "laccio", "ipa": "ˈlat.tʃo", "zh": "绳索" }
+      ],
+      "notes": "rotto 双 t、o 开口 [ɔ]；ogni 的 gn 读 [ɲɲ]；laccio 双 c [ttʃ]。"
+    },
+    {
+      "section": "第二段",
+      "it": "Sparito il timore.",
+      "zh": "恐惧也已消散。",
+      "words": [
+        { "it": "Sparito", "ipa": "spaˈriː.to", "zh": "消散的" },
+        { "it": "il", "ipa": "il", "zh": "（定冠词）" },
+        { "it": "timore", "ipa": "tiˈmoː.re", "zh": "恐惧" }
+      ],
+      "notes": "timore 的 o 闭口 [o]；全曲收束在解放感上。"
+    }
+  ],
+  "diction_notes": [
+    "本曲是双辅音与塞擦音的大全：Vittoria [tt]、vezzi [tts]、sfaccio [ttʃ]、laccio [ttʃ]、rotto [tt]、petto [tt]、hanno [nn]、inganni [nn]、affanni [ff]+[nn]、m'avventi [vv]。",
+    "开闭口密集对照：开口 [ɔ]（Vittoria、sciolta、tuoi、stuolo、Dispose、frodi、loco、foco、duol、rotto）与闭口 [o]（core、amore、d'amore、ardore、timore）交替。",
+    "gli 音是本曲特色：gl'inganni、gl'affanni 的 [ʎʎ]，以及 ogni 的 [ɲɲ]。",
+    "古语词注意：core、loco、foco、duol、strale——都是诗语缩略，重音与元音按古语习惯。",
+    "s 浊化：Dispose [z]、sguardi [zɡ]。",
+    "副歌是情绪核心（胜利的宣告），两段诗节是回望（往日的痛苦），演唱层次要有对比。"
+  ],
+  "practice_tips": [
+    "副歌先单独练：Vittoria 的 [tt] 与 sciolta 的 [ʃʃ] 是节奏骨架，用拍子打满。",
+    "两段诗节速度可稍缓于副歌，回望语气；ABABA 结构时第二次副歌回到胜利的高点。",
+    "gl'inganni 等 [ʎʎ] 音先放慢练舌位（舌面贴硬腭），再加速。",
+    "全曲 3 拍，辅音时值按三拍律动精确落位，保持\"庆祝\"的弹性，不要唱成进行曲。"
+  ]
+}

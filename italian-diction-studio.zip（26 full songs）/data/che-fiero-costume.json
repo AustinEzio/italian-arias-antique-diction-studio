@@ -1,0 +1,213 @@
+{
+  "id": "che-fiero-costume",
+  "number": 4,
+  "title": {
+    "it": "Che fiero costume",
+    "zh": "多么残酷的行径"
+  },
+  "composer": {
+    "name": "Giovanni Legrenzi",
+    "life": "1626–1690"
+  },
+  "source": "出自康塔塔《Echi di riverenza》Op.14（博洛尼亚，1678）；《26 Italian Songs and Arias》第4首；歌词为17世纪公有领域文本",
+  "voice": "Medium Low",
+  "meter": "12/8",
+  "tempo": "中速，12/8 舞曲律动",
+  "structure": "通谱（两段感叹 + 收束）",
+  "intro": "莱格伦齐（Giovanni Legrenzi）是北意大利重要的管风琴家与歌剧作曲家，晚年像前辈蒙特威尔第一样执掌威尼斯圣马可大教堂音乐。本曲出自 1678 年出版的康塔塔《Echi di riverenza》。歌词是一位被爱神戏弄者的感叹：\"多么残酷的行径，属于那长翅膀的神——竟用痛苦的力量强迫人们膜拜！那背信的神用一张可爱的面容让我崇拜。多么残酷的命运，让一个瞎眼的孩童用乳臭未干的嘴就能让人敬畏！但这暴君用野蛮的欺骗从眼睛进入，让我叹息。\"1680 年莱格伦齐将这段旋律用于歌剧《Eteocle e Polinice》，换上\"Festeggia mio core\"（庆祝吧，我的心）的歌词。",
+  "lyrics": [
+    {
+      "section": "A",
+      "it": "Che fiero costume",
+      "zh": "多么残酷的行径",
+      "words": [
+        { "it": "Che", "ipa": "ke", "zh": "多么" },
+        { "it": "fiero", "ipa": "ˈfjɛː.ro", "zh": "残酷的、高傲的" },
+        { "it": "costume", "ipa": "kosˈtuː.me", "zh": "行径、习惯" }
+      ],
+      "notes": "fiero 的 e 开口 [ɛ]；costume 的 o 闭口 [o]。"
+    },
+    {
+      "section": "A",
+      "it": "D'aligero nume,",
+      "zh": "属于那长翅膀的神，",
+      "words": [
+        { "it": "D'aligero", "ipa": "daˈliː.dʒe.ro", "zh": "长翅膀的（aligero，诗语）" },
+        { "it": "nume", "ipa": "ˈnuː.me", "zh": "神（诗语）" }
+      ],
+      "notes": "aligero 的 g 在 e 前读 [dʒ]；nume 的 u 闭口长音。"
+    },
+    {
+      "section": "A",
+      "it": "Che forza di pene",
+      "zh": "竟用痛苦的力量",
+      "words": [
+        { "it": "Che", "ipa": "ke", "zh": "竟" },
+        { "it": "forza", "ipa": "ˈfɔr.tsa", "zh": "力量" },
+        { "it": "di", "ipa": "di", "zh": "……的" },
+        { "it": "pene", "ipa": "ˈpɛː.ne", "zh": "痛苦" }
+      ],
+      "notes": "forza 的 o 开口 [ɔ]、z 读 [ts]；pene 的 e 开口 [ɛ]。"
+    },
+    {
+      "section": "A",
+      "it": "si faccia adorar!",
+      "zh": "强迫人们膜拜！",
+      "words": [
+        { "it": "si", "ipa": "si", "zh": "（反身代词）" },
+        { "it": "faccia", "ipa": "ˈfat.tʃa", "zh": "使得（fare 虚拟式）" },
+        { "it": "adorar", "ipa": "adoˈrar", "zh": "膜拜（adorare 的缩略）" }
+      ],
+      "notes": "faccia 双 c 读 [ttʃ]；adorar 重音词尾。"
+    },
+    {
+      "section": "B",
+      "it": "E pur nell'ardore",
+      "zh": "而就在这炽热中",
+      "words": [
+        { "it": "E", "ipa": "e", "zh": "而" },
+        { "it": "pur", "ipa": "pur", "zh": "仍然、就是" },
+        { "it": "nell'ardore", "ipa": "nellarˈdoː.re", "zh": "在炽热中" }
+      ],
+      "notes": "nell'ardore 双 l [ll]；ardore 的 o 闭口 [o]。"
+    },
+    {
+      "section": "B",
+      "it": "Il dio traditore",
+      "zh": "这背信的神",
+      "words": [
+        { "it": "Il", "ipa": "il", "zh": "（定冠词）" },
+        { "it": "dio", "ipa": "ˈdiː.o", "zh": "神" },
+        { "it": "traditore", "ipa": "tradiˈtoː.re", "zh": "背信者" }
+      ],
+      "notes": "traditore 的 o 闭口 [o]，重音在 -to-。"
+    },
+    {
+      "section": "B",
+      "it": "Un vago sembiante",
+      "zh": "用一张可爱的面容",
+      "words": [
+        { "it": "Un", "ipa": "un", "zh": "一" },
+        { "it": "vago", "ipa": "ˈvaː.ɡo", "zh": "可爱的" },
+        { "it": "sembiante", "ipa": "semˈbjan.te", "zh": "面容" }
+      ],
+      "notes": "sembiante 的 e 闭口 [e]，b 后接 i 读 [bj]。"
+    },
+    {
+      "section": "B",
+      "it": "mi fe' idolatrar.",
+      "zh": "让我崇拜。",
+      "words": [
+        { "it": "mi", "ipa": "mi", "zh": "我" },
+        { "it": "fe'", "ipa": "fe", "zh": "使（fece 的缩略）" },
+        { "it": "idolatrar", "ipa": "idolatˈrar", "zh": "崇拜（idolatrare 的缩略）" }
+      ],
+      "notes": "fe' 的 e 闭口 [e]；idolatrar 重音词尾。"
+    },
+    {
+      "section": "C",
+      "it": "Che crudo destino,",
+      "zh": "多么残酷的命运，",
+      "words": [
+        { "it": "Che", "ipa": "ke", "zh": "多么" },
+        { "it": "crudo", "ipa": "ˈkruː.do", "zh": "残酷的" },
+        { "it": "destino", "ipa": "desˈtiː.no", "zh": "命运" }
+      ],
+      "notes": "destino 的 e 闭口 [e]。"
+    },
+    {
+      "section": "C",
+      "it": "Che un cieco bambino",
+      "zh": "让一个瞎眼的孩童",
+      "words": [
+        { "it": "Che", "ipa": "ke", "zh": "让" },
+        { "it": "un", "ipa": "un", "zh": "一个" },
+        { "it": "cieco", "ipa": "ˈtʃɛː.ko", "zh": "瞎眼的" },
+        { "it": "bambino", "ipa": "bamˈbiː.no", "zh": "孩童" }
+      ],
+      "notes": "cieco 的 e 开口 [ɛ]、c 在 i/e 前读 [tʃ]。"
+    },
+    {
+      "section": "C",
+      "it": "Con bocca di latte",
+      "zh": "用乳臭未干的嘴",
+      "words": [
+        { "it": "Con", "ipa": "kon", "zh": "用" },
+        { "it": "bocca", "ipa": "ˈbɔk.ka", "zh": "嘴" },
+        { "it": "di", "ipa": "di", "zh": "……的" },
+        { "it": "latte", "ipa": "ˈlat.te", "zh": "奶" }
+      ],
+      "notes": "bocca 的 o 开口 [ɔ]、双 c [kk]；latte 双 t [tt]。"
+    },
+    {
+      "section": "C",
+      "it": "si faccia stimar!",
+      "zh": "就能让人敬畏！",
+      "words": [
+        { "it": "si", "ipa": "si", "zh": "（反身）" },
+        { "it": "faccia", "ipa": "ˈfat.tʃa", "zh": "使得" },
+        { "it": "stimar", "ipa": "stiˈmar", "zh": "敬畏（stimare 的缩略）" }
+      ],
+      "notes": "faccia 双 c [ttʃ]；stimar 重音词尾。"
+    },
+    {
+      "section": "D",
+      "it": "Ma questo tiranno",
+      "zh": "但这暴君",
+      "words": [
+        { "it": "Ma", "ipa": "ma", "zh": "但是" },
+        { "it": "questo", "ipa": "ˈkwes.to", "zh": "这个" },
+        { "it": "tiranno", "ipa": "tiˈran.no", "zh": "暴君" }
+      ],
+      "notes": "tiranno 双 n [nn]。"
+    },
+    {
+      "section": "D",
+      "it": "Con barbaro inganno",
+      "zh": "用野蛮的欺骗",
+      "words": [
+        { "it": "Con", "ipa": "kon", "zh": "用" },
+        { "it": "barbaro", "ipa": "ˈbar.ba.ro", "zh": "野蛮的" },
+        { "it": "inganno", "ipa": "inˈɡan.no", "zh": "欺骗" }
+      ],
+      "notes": "inganno 双 n [nn]，重音在 -gan-。"
+    },
+    {
+      "section": "D",
+      "it": "Entrando per gli occhi,",
+      "zh": "从眼睛进入，",
+      "words": [
+        { "it": "Entrando", "ipa": "enˈtran.do", "zh": "进入（entrare 副动词）" },
+        { "it": "per", "ipa": "per", "zh": "通过" },
+        { "it": "gli", "ipa": "ʎʎi", "zh": "（定冠词复数）" },
+        { "it": "occhi", "ipa": "ˈɔk.ki", "zh": "眼睛" }
+      ],
+      "notes": "gli 读 [ʎʎ]；occhi 的 o 开口 [ɔ]、双 c [kk]。"
+    },
+    {
+      "section": "D",
+      "it": "mi fe' sospirar.",
+      "zh": "让我叹息。",
+      "words": [
+        { "it": "mi", "ipa": "mi", "zh": "我" },
+        { "it": "fe'", "ipa": "fe", "zh": "使" },
+        { "it": "sospirar", "ipa": "sospiˈrar", "zh": "叹息（sospirare 的缩略）" }
+      ],
+      "notes": "sospirar 重音词尾；收尾的颤音 r 干净短促。"
+    }
+  ],
+  "diction_notes": [
+    "双辅音密集：faccia [ttʃ]、bocca [kk]、latte [tt]、tiranno [nn]、inganno [nn]、occhi [kk]、nell'ardore [ll]。",
+    "开闭口对比：开口 [ɛ]（fiero、pene、cieco）与闭口 [e]（costume、aligero、destino、sembiante、fe'）交替出现。",
+    "z 读 [ts]：forza；gli 读 [ʎʎ]：gli occhi。",
+    "古语词：nume（神）、aligero（长翅膀的）、sembiante（面容）、fe'（fece 缩略）——重音与词义都按诗语习惯。",
+    "四段结构：A（感叹行径）—B（回忆背信）—C（感叹命运）—D（收束于叹息），每段语气层次递进。",
+    "12/8 的复合拍律动，辅音时值按八分音符组精确落位，保持\"惊讶感叹\"的性格。"
+  ],
+  "practice_tips": [
+    "先攻克双辅音串：faccia/bocca/latte/occhi 逐词慢练，把 [ttʃ]/[kk]/[tt] 时值拉满。",
+    "四个感叹句（Che fiero…Che forza…Che crudo…Ma questo…）是四个情绪的锚点，先分别练语气再连起来。",
+    "C 段是情绪最高点（瞎眼孩童的荒诞），可稍放慢强调；D 段回到叹息的无奈，力度收回。",
+    "全曲 12/8，可先用 3/8×2 的感觉打拍子，再恢复 12/8 的连贯流动。"
+  ]
+}

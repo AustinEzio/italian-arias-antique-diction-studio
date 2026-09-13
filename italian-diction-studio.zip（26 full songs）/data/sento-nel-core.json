@@ -1,0 +1,119 @@
+{
+  "id": "sento-nel-core",
+  "number": 8,
+  "title": {
+    "it": "Sento nel core",
+    "zh": "我心中感到"
+  },
+  "composer": {
+    "name": "Alessandro Scarlatti",
+    "life": "1660–1725"
+  },
+  "source": "室内康塔塔（cantata da camera），出处手稿：大英图书馆 Add. 31512 等三份；《26 Italian Songs and Arias》第8首；歌词为17世纪公有领域文本",
+  "voice": "Medium Low",
+  "meter": "（原谱 E 小调）",
+  "tempo": "行板，倾诉而克制",
+  "structure": "两个咏叹调夹一个宣叙调（本曲为主咏叹调）",
+  "intro": "斯卡拉蒂一生创作了超过 600 首室内康塔塔，题材几乎全是永恒不变的浪漫爱情。《我心中感到》是最简单的一首：宣叙调中，歌者对心上人倾诉坠入爱河的恐惧与犹豫；最后的咏叹调则说\"我怕爱上你，但我感到我终将爱上你\"。歌词以三段递进：心中确切的疼痛扰乱安宁；一支火炬点燃灵魂；\"如果这不是爱情，那它终将成为爱情\"。本曲简短对称，是斯卡拉蒂康塔塔中最宜入门的作品之一。",
+  "lyrics": [
+    {
+      "section": "A",
+      "it": "Sento nel core",
+      "zh": "我心中感到",
+      "words": [
+        { "it": "Sento", "ipa": "ˈsɛn.to", "zh": "我感到" },
+        { "it": "nel", "ipa": "nel", "zh": "在……中" },
+        { "it": "core", "ipa": "ˈkɔː.re", "zh": "心（cuore 的诗语）" }
+      ],
+      "notes": "Sento 的 e 开口 [ɛ]；core 的 o 开口 [ɔ]——本曲开闭口全在开头句示范。"
+    },
+    {
+      "section": "A",
+      "it": "Certo dolore,",
+      "zh": "一种确切的疼痛，",
+      "words": [
+        { "it": "Certo", "ipa": "ˈtʃɛr.to", "zh": "确定的" },
+        { "it": "dolore", "ipa": "doˈloː.re", "zh": "疼痛" }
+      ],
+      "notes": "Certo 的 e 开口 [ɛ]、c 在 e 前读 [tʃ]；dolore 的 o 闭口 [o]。"
+    },
+    {
+      "section": "A",
+      "it": "Che la mia pace",
+      "zh": "它扰乱我的安宁",
+      "words": [
+        { "it": "Che", "ipa": "ke", "zh": "（关系代词）" },
+        { "it": "la", "ipa": "la", "zh": "（定冠词）" },
+        { "it": "mia", "ipa": "ˈmiː.a", "zh": "我的" },
+        { "it": "pace", "ipa": "ˈpaː.tʃe", "zh": "安宁" }
+      ],
+      "notes": "pace 的 c 在 e 前读 [tʃ]；a 开口长音。"
+    },
+    {
+      "section": "A",
+      "it": "Turbando va.",
+      "zh": "正渐渐地搅动。",
+      "words": [
+        { "it": "Turbando", "ipa": "turˈban.do", "zh": "搅动着（turbare 副动词）" },
+        { "it": "va", "ipa": "va", "zh": "去（此处为进行时助动词）" }
+      ],
+      "notes": "Turbando 重音在 -ban-。"
+    },
+    {
+      "section": "B",
+      "it": "Splende una face",
+      "zh": "闪耀着一支火炬",
+      "words": [
+        { "it": "Splende", "ipa": "ˈsplɛn.de", "zh": "闪耀" },
+        { "it": "una", "ipa": "ˈuː.na", "zh": "一支" },
+        { "it": "face", "ipa": "ˈfaː.tʃe", "zh": "火炬（诗语）" }
+      ],
+      "notes": "Splende 的 e 开口 [ɛ]。"
+    },
+    {
+      "section": "B",
+      "it": "Che l'alma accende,",
+      "zh": "点燃我的灵魂，",
+      "words": [
+        { "it": "Che", "ipa": "ke", "zh": "（关系代词）" },
+        { "it": "l'alma", "ipa": "ˈlal.ma", "zh": "灵魂（l'anima 的缩略）" },
+        { "it": "accende", "ipa": "atˈtʃɛn.de", "zh": "点燃" }
+      ],
+      "notes": "accende 双 c 读 [ttʃ]、e 开口 [ɛ]。"
+    },
+    {
+      "section": "C",
+      "it": "Se non è amore,",
+      "zh": "如果这不是爱情，",
+      "words": [
+        { "it": "Se", "ipa": "se", "zh": "如果" },
+        { "it": "non", "ipa": "non", "zh": "不" },
+        { "it": "è", "ipa": "ɛ", "zh": "是" },
+        { "it": "amore", "ipa": "aˈmoː.re", "zh": "爱情" }
+      ],
+      "notes": "è 的开口 [ɛ] 是全曲转折点；amore 的 o 闭口 [o]。"
+    },
+    {
+      "section": "C",
+      "it": "Amor sarà.",
+      "zh": "它终将成为爱情。",
+      "words": [
+        { "it": "Amor", "ipa": "aˈmor", "zh": "爱情（amore 的缩略）" },
+        { "it": "sarà", "ipa": "saˈra", "zh": "将成为" }
+      ],
+      "notes": "Amor 的 o 闭口 [o]、重音词尾；sarà 重音在词尾 à，a 开口。"
+    }
+  ],
+  "diction_notes": [
+    "本曲开闭口示范极佳：Sento [ɛ]、Certo [ɛ]、Splende [ɛ]、accende [ɛ]、è [ɛ] 都是开口，而 core [ɔ]、dolore [o]、amore [o]、Amor [o] 则分属开闭口 o——先分清再唱。",
+    "双辅音：accende 的 [ttʃ] 是本曲唯一，要延长。",
+    "face、core、alma 都是诗语/缩略词：face（火炬）、core（cuore）、alma（anima）。",
+    "三句结构层层递进：确定之痛 → 燃烧之焰 → 爱情的命名，语气逐渐坚定。",
+    "原谱 E 小调，哀而不伤：是\"害怕爱上你\"的忐忑，不是绝望。"
+  ],
+  "practice_tips": [
+    "把开闭口 e 的对比词（Sento/pace 的 e 与 è）单独列出来慢读，先朗诵再唱。",
+    "第三段（Se non è amore, Amor sarà）是全曲情感高点，è 与 Amor 两个重音词唱足时值。",
+    "全曲三句一气呵成的弧线，练 legato 与换气点（每句末尾）。"
+  ]
+}

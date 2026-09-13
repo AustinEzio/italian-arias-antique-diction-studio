@@ -1,0 +1,163 @@
+{
+  "id": "per-la-gloria-dadorarvi",
+  "number": 14,
+  "title": {
+    "it": "Per la gloria d'adorarvi",
+    "zh": "为了爱慕你们的荣耀"
+  },
+  "composer": {
+    "name": "Giovanni Bononcini",
+    "life": "1670–1747"
+  },
+  "source": "出自歌剧《Griselda》（伦敦，1722）；《26 Italian Songs and Arias》第14首；歌词为18世纪公有领域文本",
+  "voice": "Medium Low",
+  "meter": "（原谱 F 大调，人声+小提琴+数字低音）",
+  "tempo": "行板（Andante，即\"行走\"）",
+  "structure": "带反复记号的通谱咏叹调（器乐引子在结尾重复作尾声）",
+  "intro": "《格里塞尔达》（Griselda，1722）是博农奇尼一生最成功的歌剧，为伦敦而作；当时意大利歌剧盛行，博农奇尼的作品销量一度胜过竞争对手亨德尔。剧中埃内斯托演唱此曲：\"为了爱慕你们的荣耀，我要爱你们，哦亲爱的眼睛：爱着你们我将受苦，但我将永远爱你们，是的，是的，在我的痛苦中：亲爱的，亲爱的。没有欢乐的希望，叹息只是徒劳的情感；然而你们甜蜜的目光，谁能凝望而不爱上你们呢？\"注意：通行的\"Giovanni Battista Bononcini\"系后世误加的中名，本谱按原谱。",
+  "lyrics": [
+    {
+      "section": "A",
+      "it": "Per la gloria d'adorarvi",
+      "zh": "为了爱慕你们的荣耀",
+      "words": [
+        { "it": "Per", "ipa": "per", "zh": "为了" },
+        { "it": "la", "ipa": "la", "zh": "（定冠词）" },
+        { "it": "gloria", "ipa": "ˈɡlɔː.rja", "zh": "荣耀" },
+        { "it": "d'adorarvi", "ipa": "dadoˈrar.vi", "zh": "爱慕你们（adorare+vi）" }
+      ],
+      "notes": "gloria 的 o 开口 [ɔ]；d'adorarvi 重音在 -rar-。"
+    },
+    {
+      "section": "A",
+      "it": "Voglio amarvi, o luci care:",
+      "zh": "我要爱你们，哦亲爱的眼睛：",
+      "words": [
+        { "it": "Voglio", "ipa": "ˈvɔʎ.ʎo", "zh": "我要" },
+        { "it": "amarvi", "ipa": "aˈmar.vi", "zh": "爱你们" },
+        { "it": "o", "ipa": "o", "zh": "哦" },
+        { "it": "luci", "ipa": "ˈluː.tʃi", "zh": "眼睛（诗语）" },
+        { "it": "care", "ipa": "ˈkaː.re", "zh": "亲爱的" }
+      ],
+      "notes": "Voglio 的 o 开口 [ɔ]、gli 读 [ʎʎ]；luci 的 c 在 i 前读 [tʃ]。"
+    },
+    {
+      "section": "A",
+      "it": "Amando penerò,",
+      "zh": "爱着你们我将受苦，",
+      "words": [
+        { "it": "Amando", "ipa": "aˈman.do", "zh": "爱着（amare 副动词）" },
+        { "it": "penerò", "ipa": "peneˈrɔ", "zh": "我将受苦（penare 第一人称将来时）" }
+      ],
+      "notes": "penerò 词尾 ò 开口 [ɔ]。"
+    },
+    {
+      "section": "A",
+      "it": "Ma sempre v'amerò,",
+      "zh": "但我将永远爱你们，",
+      "words": [
+        { "it": "Ma", "ipa": "ma", "zh": "但是" },
+        { "it": "sempre", "ipa": "ˈsɛm.pre", "zh": "永远" },
+        { "it": "v'amerò", "ipa": "vameˈrɔ", "zh": "我将爱你们（vi+amerò）" }
+      ],
+      "notes": "sempre 的 e 开口 [ɛ]；v'amerò 词尾 ò 开口 [ɔ]。"
+    },
+    {
+      "section": "A",
+      "it": "Sì, sì, nel mio penare:",
+      "zh": "是的，是的，在我的痛苦中：",
+      "words": [
+        { "it": "Sì", "ipa": "si", "zh": "是的" },
+        { "it": "sì", "ipa": "si", "zh": "是的" },
+        { "it": "nel", "ipa": "nel", "zh": "在……中" },
+        { "it": "mio", "ipa": "ˈmiː.o", "zh": "我的" },
+        { "it": "penare", "ipa": "peˈnaː.re", "zh": "痛苦（名词）" }
+      ],
+      "notes": "两个 sì 是坚定的重复，唱足；penare 的 e 闭口 [e]。"
+    },
+    {
+      "section": "A",
+      "it": "Care, care.",
+      "zh": "亲爱的，亲爱的。",
+      "words": [
+        { "it": "Care", "ipa": "ˈkaː.re", "zh": "亲爱的" },
+        { "it": "care", "ipa": "ˈkaː.re", "zh": "亲爱的" }
+      ],
+      "notes": "重复的 Care 是全曲温柔落点，渐弱收。"
+    },
+    {
+      "section": "B",
+      "it": "Senza speme di diletto",
+      "zh": "没有欢乐的希望",
+      "words": [
+        { "it": "Senza", "ipa": "ˈsɛn.tsa", "zh": "没有" },
+        { "it": "speme", "ipa": "ˈspɛː.me", "zh": "希望（speranza 的诗语）" },
+        { "it": "di", "ipa": "di", "zh": "……的" },
+        { "it": "diletto", "ipa": "diˈlɛt.to", "zh": "欢乐" }
+      ],
+      "notes": "Senza 的 e 开口 [ɛ]、z 读 [ts]；speme 的 e 开口 [ɛ]；diletto 双 t [tt]、e 开口 [ɛ]。"
+    },
+    {
+      "section": "B",
+      "it": "Vano affetto è sospirare,",
+      "zh": "叹息只是徒劳的情感，",
+      "words": [
+        { "it": "Vano", "ipa": "ˈvaː.no", "zh": "徒劳的" },
+        { "it": "affetto", "ipa": "afˈfɛt.to", "zh": "情感" },
+        { "it": "è", "ipa": "ɛ", "zh": "是" },
+        { "it": "sospirare", "ipa": "sospiˈraː.re", "zh": "叹息（动词）" }
+      ],
+      "notes": "affetto 双 f [ff]、双 t [tt]、e 开口 [ɛ]。"
+    },
+    {
+      "section": "B",
+      "it": "Ma i vostri dolci rai",
+      "zh": "然而你们甜蜜的目光",
+      "words": [
+        { "it": "Ma", "ipa": "ma", "zh": "然而" },
+        { "it": "i", "ipa": "i", "zh": "（定冠词复数）" },
+        { "it": "vostri", "ipa": "ˈvɔs.tri", "zh": "你们的" },
+        { "it": "dolci", "ipa": "ˈdol.tʃi", "zh": "甜蜜的" },
+        { "it": "rai", "ipa": "rai", "zh": "目光（raggio 的诗语复数）" }
+      ],
+      "notes": "vostri 的 o 开口 [ɔ]；dolci 的 o 闭口 [o]、c 在 i 前读 [tʃ]。"
+    },
+    {
+      "section": "B",
+      "it": "Chi vagheggiar può mai,",
+      "zh": "谁能凝望而不",
+      "words": [
+        { "it": "Chi", "ipa": "ki", "zh": "谁" },
+        { "it": "vagheggiar", "ipa": "vaɡedˈdʒar", "zh": "凝望（vagheggiare 的缩略）" },
+        { "it": "può", "ipa": "pwɔ", "zh": "能够" },
+        { "it": "mai", "ipa": "mai", "zh": "曾经、竟" }
+      ],
+      "notes": "vagheggiar 的 gh 读 [ɡ]、双 g [ddʒ]、重音词尾；può 的 o 开口 [ɔ]。"
+    },
+    {
+      "section": "B",
+      "it": "E non v'amare?",
+      "zh": "却不爱上你们呢？",
+      "words": [
+        { "it": "E", "ipa": "e", "zh": "却" },
+        { "it": "non", "ipa": "non", "zh": "不" },
+        { "it": "v'amare", "ipa": "vaˈmaː.re", "zh": "爱你们（vi+amare）" }
+      ],
+      "notes": "句尾问号上扬，amare 的 a 开口长音。"
+    }
+  ],
+  "diction_notes": [
+    "本曲是开闭口 o 的大课堂：gloria [ɔ]、Voglio [ɔ]、penerò [ɔ]、v'amerò [ɔ]、può [ɔ]、vostri [ɔ] 与 dolci [o] 交替。",
+    "双辅音/塞擦音：Voglio [ʎʎ]、diletto [tt]、affetto [ff]+[tt]、vagheggiar [ddʒ]、Senza 的 z [ts]。",
+    "诗语：luci（眼睛）、speme（希望）、rai（目光）、vagheggiar（凝望）——speme 与 rai 是但丁时代的优雅旧词。",
+    "A 段是誓言（受苦仍爱），B 段是反问（谁能不爱）——句尾问号是转折，语气要上扬。",
+    "原谱 Andante 意为\"行走\"：速度如步行般从容，不拖不赶。",
+    "第 12 小节等处的倚音是原谱所有，按八分或四分音符演唱并加重。"
+  ],
+  "practice_tips": [
+    "Voglio 的 [ʎʎ] 与 vagheggiar 的 [ddʒ] 是全曲最难的辅音，先慢练舌位。",
+    "三个将来时词尾（penerò/v'amerò）都是开口 [ɔ]，唱高音时保持元音不扁。",
+    "B 段反问句（Chi vagheggiar può mai…）是情绪转折，从沉思转为热烈。",
+    "结尾 Care, care 的重复要渐弱，像叹息一样收束。"
+  ]
+}
